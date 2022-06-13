@@ -1,0 +1,103 @@
+{
+  "characters": [
+    {
+      "id": 0,
+      "name": "Rick Sanchez",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      "bestSentences": []
+    },
+    {
+      "id": 1,
+      "name": "Morty Smith",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+      "bestSentences": []
+    },
+    {
+      "id": 2,
+      "name": "Summer Smith",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Female",
+      "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+      "bestSentences": []
+    },
+    {
+      "id": 3,
+      "name": "Beth Smith",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Female",
+      "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+      "bestSentences": []
+    },
+    {
+      "id": 4,
+      "name": "Jerry Smith",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+      "bestSentences": []
+    },
+    {
+      "id": 5,
+      "name": "Abadango Cluster Princess",
+      "status": "Alive",
+      "species": "Alien",
+      "gender": "Female",
+      "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
+      "bestSentences": []
+    },
+    {
+      "id": 6,
+      "name": "Abradolf Lincler",
+      "status": "unknown",
+      "species": "Human",
+      "gender": "Male",
+      "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
+      "bestSentences": []
+    },
+    {
+      "id": 7,
+      "name": "Adjudicator Rick",
+      "status": "Dead",
+      "species": "Human",
+      "gender": "Male",
+      "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
+      "bestSentences": []
+    },
+    {
+      "id": 8,
+      "name": "Agency Director",
+      "status": "Dead",
+      "species": "Human",
+      "gender": "Male",
+      "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
+      "bestSentences": []
+    },
+    {
+      "id": 9,
+      "name": "Alan Rails",
+      "status": "Dead",
+      "species": "Human",
+      "gender": "Male",
+      "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
+      "bestSentences": []
+    },
+    {
+      "id": 10,
+      "name": "Albert Einstein",
+      "status": "Dead",
+      "species": "Human",
+      "gender": "Male",
+      "image": "https://rickandmortyapi.com/api/character/avatar/11.jpeg",
+      "bestSentences": []
+    }
+  ]
+}
