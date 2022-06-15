@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useHistory, useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { Button, TextField } from '@material-ui/core';
 
 import { ICharacter } from 'api/api-model';
@@ -14,11 +14,11 @@ export interface ICharactersDetails {
 export const CharacterDetails = ({ characters }: ICharactersDetails) => {
   const [inputValue, setIputValue] = useState('');
 
-  const params = useParams();
+  const params = useParams<{ id: string }>();
 
   const characterSelected = characters.find((c) => c.id == params.id);
 
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const handleSentenceClick = () => {
     characterSelected.bestSentences.push(inputValue);
@@ -30,7 +30,7 @@ export const CharacterDetails = ({ characters }: ICharactersDetails) => {
     setIputValue(ev.target.value);
   };
   const handleRedirectClick = () => {
-    history.push('/');
+    navigate('/');
   };
 
   return (

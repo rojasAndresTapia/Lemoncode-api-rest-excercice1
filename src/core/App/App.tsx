@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { CharactersCollection } from 'core/scenes';
 
 import { api } from '../../api/api';
@@ -17,27 +17,16 @@ export const App: React.FC = () => {
 
   return (
     <HashRouter>
-      <Switch>
+      <Routes>
         <Route
-          exact={true}
-          path={[switchRoutes.root, switchRoutes.characterCollection]}
-          component={() => (
-            <CharactersCollection characters={charactersCollection} />
-          )}
+          path={switchRoutes.root}
+          element={<CharactersCollection characters={charactersCollection} />}
         />
-        {/* <Route
-          exact={true}
-          path={switchRoutes.createCharacter}
-          component={CharacterDetails}
-        /> */}
         <Route
-          exact={true}
           path={switchRoutes.editCharacter}
-          component={() => (
-            <CharacterDetails characters={charactersCollection} />
-          )}
+          element={<CharacterDetails characters={charactersCollection} />}
         />
-      </Switch>
+      </Routes>
     </HashRouter>
   );
 };

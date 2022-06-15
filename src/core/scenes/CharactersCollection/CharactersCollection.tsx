@@ -1,6 +1,4 @@
 import * as React from 'react';
-import Button from '@material-ui/core/Button';
-import { generatePath, Link } from 'react-router-dom';
 
 import { ICharacter } from '../../../api/api-model';
 
